@@ -8,7 +8,7 @@ import Home from './components/Home.jsx'
 import About from './components/About.jsx'
 import Contact from './components/Contact.jsx'
 import User from './components/User.jsx'
-import Github,{githubInfoLoader} from './components/GitHub.jsx'
+import Github from './components/GitHub.jsx'
 
 import Skill from './components/Skill.jsx'
 import Project from './components/Project.jsx'
