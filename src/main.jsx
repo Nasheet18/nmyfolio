@@ -9,7 +9,7 @@ import About from './components/About.jsx'
 import Contact from './components/Contact.jsx'
 import User from './components/User.jsx'
 
-// import Github,{githubInfoLoader} from './components/Github.jsx'
+
 import Skill from './components/Skill.jsx'
 import Project from './components/Project.jsx'
 
@@ -45,11 +45,7 @@ const router = createBrowserRouter(
       <Route path='skills' element={<Skill />} />
       <Route path='project' element={<Project />} />
       <Route path='user/:userid' element={<User />} />
-      {/* <Route 
-      loader={githubInfoLoader}
-      path='github' 
-      element={<Github/>}
-       /> */}
+      
     </Route>
   )
 )
